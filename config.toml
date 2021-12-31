@@ -1,0 +1,85 @@
+baseURL = "http://notes.saqibur.com/"
+languageCode = "en-us"
+title = "Notes"
+copyright = ""
+paginate = 5
+theme = "minima"
+
+[author]
+  name = "Notes"
+  slogon = ""
+  description = "A collection of my notes"
+
+
+[params]
+  # iam is the beginning words of your self-introduction.
+  iam = ""
+
+  # The subtitle will be shown after the title of your blog site.
+  # e.g. "title - subtitle".
+  subtitle = ""
+
+  comment = "utterances"
+
+  timeformat = "Jan 02, 2006"
+
+  # switch for turning on/off lights.
+  switch = ["🌑", "☀️"]
+
+  # If set true, date of posts will be shown in the homepage.
+  displayDate = true
+
+  # If set true, users can select text from your post.
+  selectable = true
+
+  # Custom global font. notice: `globalFontFamily` won't be working
+  # on texts in some special positions like on titles
+  globalFontFamily = 'Fira Code'
+
+  # If set true, all your posts will use the chosen comment plugin
+  # except those with a `comment: false` in their front-matter
+  commentOnAllPosts = true
+
+  # toc decides the shape of the toc button. e.g. default, lines, bar
+  toc = "default"
+
+
+[params.utterances]
+  repo = "saqibur/notes"
+  issueTerm = "pathname"
+
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/saqibur/"
+[[params.social]]
+  name = "linkedin"
+  url = "https://linkedin/in/saqibur"
+[[params.social]]
+  name = "rss"
+  url = "/index.xml"
+
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "Categories"
+  url = "/categories"
+  weight = 2
+[[menu.main]]
+  name = "Series"
+  url = "/series"
+  weight = 3
+
+
+[taxonomies]
+  category = "categories" # Only one allowed
+  tag = "tags" # Multiple allowed
+  series = "series" # Only one allowed
+
+
+[markup.highlight]
+  lineNos = true
+  noClasses = false
