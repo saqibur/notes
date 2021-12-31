@@ -72,6 +72,10 @@ theme = "minima"
   name = "Series"
   url = "/series"
   weight = 3
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 4
 
 
 [taxonomies]
