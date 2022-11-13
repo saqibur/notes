@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Saqibur's Notes</title><link href="https://notes.saqibur.com/" rel="alternate"></link><link href="https://notes.saqibur.com/feeds/all.atom.xml" rel="self"></link><id>https://notes.saqibur.com/</id><updated>2022-11-13T00:00:00+06:00</updated><entry><title>An Introduction to Pelican with Notes</title><link href="https://notes.saqibur.com/introduction-to-pelican-with-notes.html" rel="alternate"></link><published>2022-11-13T00:00:00+06:00</published><updated>2022-11-13T00:00:00+06:00</updated><author><name>Saqibur Rahman</name></author><id>tag:notes.saqibur.com,2022-11-13:/introduction-to-pelican-with-notes.html</id><summary type="html">&lt;p&gt;A quick introduction to Pelican as I rebuild my Notes site&lt;/p&gt;</summary><content type="html">&lt;h1&gt;An Introduction to Pelican with Notes&lt;/h1&gt;
+&lt;p&gt;About a year ago, I made a personal notes static site to be hosted using GitHub
+Pages --- but I never got around to writing much on it because I got to about
+80% percent of the way there before giving up on the remaining things at hand.&lt;/p&gt;
+&lt;p&gt;Now, a year later, and another year around the horizon, I decided to try out a
+little something familiar, but new at the same time.&lt;/p&gt;
+&lt;p&gt;My goals were clear, I wanted:
+* To replace Hugo (despite how fantastic it is)
+* To try out Pelican and it's offerings
+* Rebuild my static site with a little more control over the layouts, designs
+and overall structure (albeit with a bit of "inspiration" from other sources).
+* A public notebook for random tech-or-non-tech musings.&lt;/p&gt;
+&lt;h2&gt;Building on Pelican&lt;/h2&gt;
+&lt;p&gt;Pelican is great and uses a lot of familiar technology to get things done, such
+as the popular Jinja2 and Markdown packages - for everything I need. Further, it
+has some nice tooling as well which makes building, testing and even publishing
+a breeze.&lt;/p&gt;
+&lt;p&gt;Pelican: https://docs.getpelican.com/&lt;/p&gt;</content><category term="Tinkering"></category><category term="Pelican"></category></entry></feed>

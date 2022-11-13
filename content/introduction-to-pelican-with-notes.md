@@ -26,3 +26,5 @@ Pelican is great and uses a lot of familiar technology to get things done, such
 as the popular Jinja2 and Markdown packages - for everything I need. Further, it
 has some nice tooling as well which makes building, testing and even publishing
 a breeze.
+
+Pelican: https://docs.getpelican.com/

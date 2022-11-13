@@ -1,6 +1,6 @@
 AUTHOR = 'Saqibur Rahman'
 SITENAME = "Saqibur's Notes"
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://notes.saqibur.com'
 
 PATH = 'content'
 
