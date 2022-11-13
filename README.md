@@ -19,6 +19,7 @@ to structure posts as an ordered "series"
 - Add SEO
 - Add search
 - Fix top-bar navigation
+- Fix markdown formatter
 
 
 Pelican - https://docs.getpelican.com/en/stable/index.html
