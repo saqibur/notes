@@ -1,6 +1,6 @@
 AUTHOR = 'Saqibur Rahman'
 SITENAME = "Saqibur's Notes"
-# SITEURL = 'https://notes.saqibur.com'
+SITEURL = 'https://notes.saqibur.com'
 
 DESCRIPTION = """
     A collection of everything I learn and want to remember.
