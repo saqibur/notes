@@ -3,7 +3,9 @@ SITENAME = "Saqibur's Notes"
 SITEURL = 'https://notes.saqibur.com'
 
 DESCRIPTION = """
-    A collection of everything I learn and want to remember.
+    I'm Saqibur Rahman - a software engineer that writes
+    Python, TypeScript/JavaScript and C# / F# to deliver web-based experiences.
+    This is a collection of everything I've learned and want to remember.
 """
 
 PATH = 'content'
