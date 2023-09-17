@@ -8,6 +8,25 @@ DESCRIPTION = """
     This is a collection of everything I've learned and want to remember.
 """
 
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 0.5,
+        "indexes": 0.5,
+        "pages": 0.5
+    },
+    "changefreqs": {
+        "articles": "monthly",
+        "indexes": "daily",
+        "pages": "monthly"
+    },
+        "exclude": [
+        "^/noindex/",  # starts with "/noindex/"
+        "/tag/",       # contains "/tag/"
+        "\.json$",     # ends with ".json"
+    ]
+}
+
 PATH = 'content'
 
 TIMEZONE = 'Asia/Dhaka'
@@ -47,16 +66,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -66,6 +75,6 @@ DEFAULT_PAGINATION = 10
 THEME = "theme"
 OUTPUT_PATH = 'docs/'
 LOAD_CONTENT_CACHE = False
-PLUGINS = ['series']
+PLUGINS = ['series', 'sitemap']
 SUMMARY_END_SUFFIX = '…'
 

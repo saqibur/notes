@@ -1,0 +1,11 @@
+User-agent: *
+
+# Allow search engines to crawl important pages
+Allow: /sitemap.xml
+Allow: /feed/
+Allow: /feed/*.xml
+Allow: /feed/*.rss
+Allow: /images/  # Allow indexing of uploaded media
+
+# Sitemap location (replace with your actual sitemap URL)
+Sitemap: https://www.example.com/sitemap.xml
