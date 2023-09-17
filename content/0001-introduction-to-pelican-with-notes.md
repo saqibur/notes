@@ -1,4 +1,4 @@
-Title: An Introduction to Pelican with Notes
+Title: 1. An Introduction to Pelican with Notes
 Date: 2022-11-13
 Tags: Pelican
 Category: Tinkering
