@@ -5,15 +5,17 @@ Pages --- but I never got around to writing much on it because I got to about
 80% percent of the way there before giving up on the remaining things at hand.&lt;/p&gt;
 &lt;p&gt;Now, a year later, and another year around the horizon, I decided to try out a
 little something familiar, but new at the same time.&lt;/p&gt;
-&lt;p&gt;My goals were clear, I wanted:
-* To replace Hugo (despite how fantastic it is)
-* To try out Pelican and it's offerings
-* Rebuild my static site with a little more control over the layouts, designs
-and overall structure (albeit with a bit of "inspiration" from other sources).
-* A public notebook for random tech-or-non-tech musings.&lt;/p&gt;
+&lt;p&gt;My goals were clear, I wanted:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To replace Hugo (despite how fantastic it is)&lt;/li&gt;
+&lt;li&gt;To try out Pelican and it's offerings&lt;/li&gt;
+&lt;li&gt;Rebuild my static site with a little more control over the layouts, designs
+and overall structure (albeit with a bit of "inspiration" from other sources).&lt;/li&gt;
+&lt;li&gt;A public notebook for random tech-or-non-tech musings.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Building on Pelican&lt;/h2&gt;
 &lt;p&gt;Pelican is great and uses a lot of familiar technology to get things done, such
 as the popular Jinja2 and Markdown packages - for everything I need. Further, it
 has some nice tooling as well which makes building, testing and even publishing
 a breeze.&lt;/p&gt;
-&lt;p&gt;Pelican: https://docs.getpelican.com/&lt;/p&gt;</content><category term="Tinkering"></category><category term="Pelican"></category></entry></feed>
+&lt;p&gt;Pelican: &lt;a href="https://docs.getpelican.com/"&gt;https://docs.getpelican.com/&lt;/a&gt;&lt;/p&gt;</content><category term="Tinkering"></category><category term="Pelican"></category></entry></feed>

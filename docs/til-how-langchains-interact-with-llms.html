@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <title>TIL: How LangChain makes it easy to interact with LLMs - Saqibur's Notes</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="/theme/style.css" rel="stylesheet" />
+
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body id="index">
+    <nav class="navbar navbar-expand-lg mb-4" role="navigation" style="background-color: #3571A3;">
+      <div class="container">
+        <a class="navbar-brand text-ivory" href="">Saqibur's Notes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li><a class="text-white me-2 ms-2" href="/categories.html">categories</a></li>
+            <li><a class="text-white me-2 ms-2" href="/tags.html">tags</a></li>
+            <li><a class="text-white me-2 ms-2" href="/archives.html">archives</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+    <section id="content" class="article content">
+      <header>
+        <h2 class="entry-title">
+          TIL: How LangChain makes it easy to interact with LLMs
+        </h2>
+        
+        <div class="text-muted">Sun 17 September 2023</div>
+      </header>
+<!-- .entry-content -->
+      <div class="entry-content">
+        <h2>A summary of my studies</h2>
+<ul>
+<li><code>LangChain</code> provides a "sensible" framework that does a lot of heavy lifting for
+us - <a href="https://news.ycombinator.com/item?id=34422627">LangChain: Build AI apps with LLMs through composability</a></li>
+<li>Seems like it's also a widely adopted (across different tech companies)
+approach for the last few months at least</li>
+<li>Two main advantages backend devs, it can directly integrate;<ul>
+<li>with your database with a <a href="https://python.langchain.com/docs/use_cases/qa_structured/sql">SQLChain</a></li>
+<li>with your API with an <a href="https://python.langchain.com/docs/use_cases/apis">APIChain</a>. It's easy
+enough that if you provide it with a standard OpenAPI schema, it's able to
+understand which API to call and fetch data from to answer the question</li>
+</ul>
+</li>
+<li>You can think of it like writing a step-by-step, repeatable flow for interacting
+  with an LLM in a very iteration friendly way (you can build on your prompts
+  and templates quite easily) - that is, composing a bunch of different
+  prompts/instructions and chaining them together into a desirable outcome. What
+  it does boil down to, at a super high-level, is a
+  <a href="https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html">DAG</a></li>
+<li>One thing to note, it's not restricted to OpenAI, but rather can be tweaked to
+work with other models as well - for instance, open source models available on
+hugging face.</li>
+</ul>
+<h2>Counter-points</h2>
+<p><code>LangChain</code> is essentially an abstraction over how you'd normally query LLMs -
+so while it doesn't do anything fancy (and in rare cases, cannot be used for
+super customised integrations), it does get the job done in most
+application-specific use cases. Some rants on Hacker News on why it "sucks":</p>
+<ul>
+<li><a href="https://news.ycombinator.com/item?id=36725982">The problem with LangChain</a></li>
+<li><a href="https://news.ycombinator.com/item?id=36645575">LangChain is pointless</a></li>
+</ul>
+<!-- ## Examples (via screenshots): TODO.
+- The first screenshot shows what I got after asking my "API" about "myself"
+- The second shows what I got when asking about "me" and the APIChain correctly hits the me API that I have
+- The third screenshot shows what I got when asking about my phone number
+- Just a general question about the missions we have in the system -->
+
+<h3>Case:</h3>
+<ul>
+<li><a href="https://www.klarna.com/international/press/klarna-brings-smoooth-shopping-to-chatgpt/">Klarna</a>
+has a nice documentation and implementation of this (LangChain refers to this in their docs)</li>
+</ul>
+<h6>References:</h6>
+<ul>
+<li><a href="https://python.langchain.com/docs/get_started/introduction">Intro to LangChain</a></li>
+<li><a href="https://python.langchain.com/docs/use_cases/apis">Interacting with APIs</a></li>
+</ul>
+      </div>
+<!-- /.entry-content -->
+
+    <div>
+    </div>
+
+    <footer class="text-muted">
+      <span class="text-muted">Category:</span> <a href="/category/til.html">TIL</a>
+
+      <div>
+        Tags:
+        <button type="button" class="btn btn-default">
+          <a href="/tag/langchain.html">langchain</a>
+        </button>
+        <button type="button" class="btn btn-default">
+          <a href="/tag/python.html">python</a>
+        </button>
+        <button type="button" class="btn btn-default">
+          <a href="/tag/generative-ai.html">generative-ai</a>
+        </button>
+        <button type="button" class="btn btn-default">
+          <a href="/tag/llm.html">llm</a>
+        </button>
+    </div>
+    </footer>
+    <!-- /.post-info -->
+    </section>
+    </div>
+
+    <footer class="footer text-center">
+      <div class="container">
+        <p class="footer-text">2023 &copy; <a href="">Saqibur's Notes</a> powered by <a href="http://getpelican.com/">Pelican</a>.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
